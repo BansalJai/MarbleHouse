@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+.navbar {
+  justify-content: space-between;
+  margin: 10px;
+}
+.icons {
+  gap: 10px;
+}
+.styleimg {
+  /* background-color: black;
+  opacity: 0.9; */
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  height: 35vh;
+  /* border:2px solid red; */
+  position: relative;
+}
+.blackbg {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.1;
+  z-index: 10;
+}
+.blackbg:hover {
+  opacity: 0.5;
+}
+.styleimg img {
+  /* opacity: 1; */
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  /* margin: 10px; */
+  /* z-index: 1; */
+}
+.titles {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: 10;
+}
+.text1 {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 10px;
+  word-spacing: 1px;
+}
+.filters {
+  margin: 10px;
+  gap: 10px;
+}
+.filterby {
+  width: 10vw;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 0.1px solid black;
+  gap: 10px;
+}
+.filterby .text2 {
+  font-size: 18px;
+}
+.dropdown {
+  gap: 5px;
+  border: 1px solid black;
+  align-items: center;
+  padding: 10px;
+}
+.dropdowns {
+  background-color: antiquewhite;
+  border: 0px;
+}
+.carditem {
+  height: 55vh;
+  width: 20vw;
+  /* border:2px solid red; */
+  /* overflow: hidden; */
+  gap: 10px;
+  padding: 10px 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+.carditem:hover {
+  border: 2px solid black;
+}
+.carditem img {
+  /* object-fit: contain; */
+  height: 80%;
+  width: 100%;
+}
+.dessc {
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.price {
+  font-weight: 700;
+  font-size: 20px;
+}
+.cards {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  overflow: hidden;
+}
+.credits {
+  background-color: rgba(13, 54, 13, 0.781);
+  height: 50vh;
+
+
+}
+.invert
+{
+  filter: invert(1);
+}
+.text3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px;
+}
+hr {
+  border-color: yellow;
+  width: 30%;
+  margin: 10px;
+}
+.creditsdetail {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  
+
+}
+.eachone1 {
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.eachone2 {
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.eachone3 {
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.eachone1:hover,
+.eachone2:hover,
+.eachone3:hover {
+  border: 1px solid white;
+  color: white;
+}
+.h1 {
+  position: absolute;
+  top: 0%;
+  left:0%;
+  width: 30%;
+  background-color: white;
+  z-index: 100;
+  border:2px solid black;
+  display: none;
+}
+.menu
+{
+  background-color:antiquewhite;
+  padding: 20px;
+}
+.buttonclose
+{
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+.menu1
+{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+.h2 {
+  position: absolute;
+  top: 0%;
+  left:0%;
+  width: 30%;
+  background-color: white;
+  z-index: 100;
+  border:2px solid black;
+  display: none;
+  height: 90%;
+}
+.buttonclose2
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.buttonclose2
+{
+  font-size: 40px;
+  font-weight: 900;
+  align-items: center;
+}
+.menu2
+{
+  height:95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.lastbtn
+{
+  padding:15px;
+  font-size: 25px;
+  background-color: black;
+  color:white;
+}
+
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+  color: white;
+}
+
+.accordion-title {
+  /* background-color: #f4f4f4; */
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgba(13, 54, 13, 0.781); */
+  letter-spacing: 5px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-content.active {
+  display: block;
+}
+li
+{
+  list-style-type: none;
+  letter-spacing: 2px;
+  gap:0px;
+
+}
+
+.iconslast
+{
+  display: flex;
+  /* height: 10%; */
+
+  align-items: center;
+  gap:10px;
+}

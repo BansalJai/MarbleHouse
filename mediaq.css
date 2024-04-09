@@ -1,0 +1,66 @@
+@media screen and (max-width:500px)
+{
+    .navbar
+    {
+        width:98%;
+        justify-content: space-between;
+    }
+    .blackbg
+    {
+        height: 100%;
+        width:100%;
+    }
+    .titles
+    {
+        font-size: 30px;
+    }
+    .text1
+    {
+        font-size: 20px;
+    }
+    .filterby
+    {
+        width:50%;
+        justify-content: center;
+        gap:10px;
+        font-size: 10px;
+    }
+    .dropdown
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .carditem
+    {
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width:35%;
+    }
+    .carditem img
+    {
+        height:100%;
+        width:100%;
+    }
+    .carditem .name,.price
+    {
+        font-size: 10px;
+    }
+    .h1
+    {
+        width:80%;
+    }
+    .offer
+    {
+        font-size: 20px;
+    }
+    .h2
+    {
+        width:80%;
+    }
+
+
+
+}
